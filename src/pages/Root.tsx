@@ -1,15 +1,15 @@
 import { Outlet } from "react-router";
 import Navigation from "../components/navigation/Navigation";
 
-const Home = (): JSX.Element => {
+const Root = (): JSX.Element => {
   return (
     <>
       <Navigation></Navigation>
-      <div className="body">
+      <div className="">
         <Outlet></Outlet>
       </div>
     </>
   );
 };
 
-export default Home;
+export default Root;
